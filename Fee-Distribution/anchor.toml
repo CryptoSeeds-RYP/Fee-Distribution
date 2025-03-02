@@ -1,0 +1,14 @@
+[programs.devnet]
+fee_distribution = "Your_Program_ID_Here"
+
+[workspace]
+members = [
+    "programs/fee_distribution"
+]
+
+[provider]
+cluster = "https://api.devnet.solana.com"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "anchor test"
