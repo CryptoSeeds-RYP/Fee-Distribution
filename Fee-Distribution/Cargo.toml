@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "programs/fee_distribution"
+]
+
+[profile.release]
+overflow-checks = false
+
+[dependencies]
+anchor-lang = "0.26.0"
+anchor-spl = "0.26.0"
+solana-program = "1.14.18"
